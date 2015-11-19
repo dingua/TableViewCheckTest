@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3425D3AA1BFDF40E005040DA /* EntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFF11BFDDF0300EB6953 /* EntryTableViewCell.m */; };
+		3425D3AB1BFDF437005040DA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFF41BFDDFB500EB6953 /* TableViewController.m */; };
+		3425D3AC1BFDF437005040DA /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFEE1BFDDE7700EB6953 /* Entry.m */; };
+		3425D3AD1BFDF437005040DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFDA1BFDDE6400EB6953 /* AppDelegate.m */; };
 		34B6FFD81BFDDE6400EB6953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFD71BFDDE6400EB6953 /* main.m */; };
-		34B6FFDB1BFDDE6400EB6953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFDA1BFDDE6400EB6953 /* AppDelegate.m */; };
 		34B6FFE11BFDDE6400EB6953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B6FFDF1BFDDE6400EB6953 /* Main.storyboard */; };
 		34B6FFE31BFDDE6400EB6953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B6FFE21BFDDE6400EB6953 /* Assets.xcassets */; };
 		34B6FFE61BFDDE6400EB6953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B6FFE41BFDDE6400EB6953 /* LaunchScreen.storyboard */; };
-		34B6FFEF1BFDDE7700EB6953 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFEE1BFDDE7700EB6953 /* Entry.m */; settings = {ASSET_TAGS = (); }; };
-		34B6FFF21BFDDF0300EB6953 /* EntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFF11BFDDF0300EB6953 /* EntryTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		34B6FFF51BFDDFB500EB6953 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B6FFF41BFDDFB500EB6953 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +48,17 @@
 		34B6FFCA1BFDDE6400EB6953 = {
 			isa = PBXGroup;
 			children = (
-				34B6FFD51BFDDE6400EB6953 /* TableViewCheckTest */,
+				34B6FFF81BFDE38800EB6953 /* Controller */,
+				34B6FFF71BFDE38000EB6953 /* Cell */,
+				34B6FFF61BFDE37700EB6953 /* Model */,
+				34B6FFD91BFDDE6400EB6953 /* AppDelegate.h */,
+				34B6FFDA1BFDDE6400EB6953 /* AppDelegate.m */,
+				34B6FFDF1BFDDE6400EB6953 /* Main.storyboard */,
+				34B6FFE21BFDDE6400EB6953 /* Assets.xcassets */,
+				34B6FFE41BFDDE6400EB6953 /* LaunchScreen.storyboard */,
+				34B6FFE71BFDDE6400EB6953 /* Info.plist */,
+				34B6FFD61BFDDE6400EB6953 /* Supporting Files */,
+				34B6FFD71BFDDE6400EB6953 /* main.m */,
 				34B6FFD41BFDDE6400EB6953 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,27 +71,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		34B6FFD51BFDDE6400EB6953 /* TableViewCheckTest */ = {
-			isa = PBXGroup;
-			children = (
-				34B6FFF81BFDE38800EB6953 /* Controller */,
-				34B6FFF71BFDE38000EB6953 /* Cell */,
-				34B6FFF61BFDE37700EB6953 /* Model */,
-				34B6FFD91BFDDE6400EB6953 /* AppDelegate.h */,
-				34B6FFDA1BFDDE6400EB6953 /* AppDelegate.m */,
-				34B6FFDF1BFDDE6400EB6953 /* Main.storyboard */,
-				34B6FFE21BFDDE6400EB6953 /* Assets.xcassets */,
-				34B6FFE41BFDDE6400EB6953 /* LaunchScreen.storyboard */,
-				34B6FFE71BFDDE6400EB6953 /* Info.plist */,
-				34B6FFD61BFDDE6400EB6953 /* Supporting Files */,
-			);
-			path = TableViewCheckTest;
-			sourceTree = "<group>";
-		};
 		34B6FFD61BFDDE6400EB6953 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				34B6FFD71BFDDE6400EB6953 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,10 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34B6FFEF1BFDDE7700EB6953 /* Entry.m in Sources */,
-				34B6FFF51BFDDFB500EB6953 /* TableViewController.m in Sources */,
-				34B6FFF21BFDDF0300EB6953 /* EntryTableViewCell.m in Sources */,
-				34B6FFDB1BFDDE6400EB6953 /* AppDelegate.m in Sources */,
+				3425D3AB1BFDF437005040DA /* TableViewController.m in Sources */,
+				3425D3AC1BFDF437005040DA /* Entry.m in Sources */,
+				3425D3AD1BFDF437005040DA /* AppDelegate.m in Sources */,
+				3425D3AA1BFDF40E005040DA /* EntryTableViewCell.m in Sources */,
 				34B6FFD81BFDDE6400EB6953 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TableViewCheckTest/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewCheckTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,7 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TableViewCheckTest/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewCheckTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
